@@ -160,7 +160,7 @@ Designed for day traders, scalpers, and swing traders who need crystal-clear ses
 | Channel | Access |
 |---------|--------|
 | **MQL5 Market** | Paid listing — updates and priority support |
-| **Website** | [sjavadrz.com](https://sjavadrz.com) — direct download |
+| **Website** | [javadrazavi.fr](https://www.javadrazavi.fr/fr) — direct download |
 | **GitHub (source)** | [jr-mql5-source](https://github.com/Sjrazaviebra/jr-mql5-source) — free MIT, compile yourself |
 
 ---
@@ -193,4 +193,4 @@ Designed for day traders, scalpers, and swing traders who need crystal-clear ses
 Commercial License — single user, unlimited accounts and charts. No redistribution or resale.
 Free lifetime updates included.
 
-© 2026 Javad RAZAVI — sjavadrz@gmail.com — [sjavadrz.com](https://sjavadrz.com)
+© 2026 Javad RAZAVI — S.javad_rz@yahoo.com — [javadrazavi.fr](https://www.javadrazavi.fr/fr)
