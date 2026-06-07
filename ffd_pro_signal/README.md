@@ -17,13 +17,31 @@ arrows, three signal modes, and Popup / Sound / Email / **Telegram** alerts.
 | FFD line + ±2σ bands                | ✅   | ✅         |
 | Glass UI panel with live stats      | ✅   | ✅         |
 | Validated < 5e-13 vs Python         | ✅   | ✅         |
-| **Buy / Sell arrows on chart**      | ❌   | ✅         |
+| **Buy / Sell bullet dots on chart** | ❌   | ✅         |
 | **3 signal modes** (Reversion / Momentum / Hybrid) | ❌ | ✅ |
 | **Popup + Sound alerts**            | ❌   | ✅         |
 | **Email alerts**                    | ❌   | ✅         |
 | **Telegram alerts**                 | ❌   | ✅         |
 | **24h signal counter** in panel     | ❌   | ✅         |
+| **24h rolling Win-rate readout**    | ❌   | ✅         |
+| **DD stop on hypothetical position**| ❌   | ✅         |
+| **Open-position display**           | ❌   | ✅         |
 | Min-bars-between filter             | —    | ✅         |
+
+---
+
+## Live signal-quality readout
+
+The glass panel includes a **SIGNALS** section that tracks every entry hypothetically:
+
+- **BUY (24h)** / **SELL (24h)** — signal counts on a rolling 24-hour window.
+- **Open pos** — the currently-tracked hypothetical position (`BUY`, `SELL`, or `—`).
+- **Closed W/L** — cumulative wins / losses since the indicator was attached.
+- **Win-rate (24h)** — rolling 24-hour win percentage, colour-coded (green / amber / red).
+
+A configurable **drawdown stop** (default 1 %) caps the downside on each tracked position, so the readout reflects a realistic SL-protected style — not unbounded close-to-close. Re-attaching the indicator resets the counters so the readout always reflects the parameters currently in effect.
+
+> Use the Win-rate (24h) as your live regime check: a sustained red reading means the current mode is mis-aligned with the current market regime. Switch mode (Hybrid ↔ Momentum) and observe.
 
 ---
 

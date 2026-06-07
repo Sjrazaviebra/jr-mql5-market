@@ -10,6 +10,7 @@ Professional trading indicators and Expert Advisors for MetaTrader 5, developed 
 |---------|------|--------|-------------|
 | [ProSessionBox Premium](pro_session_box_premium/) | Indicator | ✅ Available | Daily box + 4 sessions + smart time bar |
 | [ProLogic Indicator](pro_logic_indicator/) | Indicator | ✅ Available | AI multi-indicator signal engine with dashboard |
+| [RiskCockpit](risk_cockpit/) | Indicator | ✅ Available | Prop-firm risk manager, drawdown monitor &amp; lot sizer — FundedNext / FTMO / E8 / The5ers / MyFundedFX + personal accounts |
 
 ---
 
@@ -32,4 +33,4 @@ Each product's `.ex5` compiled file is distributed on request:
 
 ---
 
-© 2025 Javad RAZAVI. All rights reserved.
+© 2026 Javad RAZAVI. All rights reserved.
